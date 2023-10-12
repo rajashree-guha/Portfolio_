@@ -23,13 +23,17 @@ nav{
     background-color:#f4c556;
 }
 
+.logo2{
+    width: 80px;
+}
+
 nav>a{
     color:black;
     font-size: larger;
     font-weight: 600;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     }
 
 nav>a:hover{
@@ -185,6 +189,116 @@ footer {
     background-color: #f4c556;
 
 }
+
+@media all and (max-width:480px){
+
+    /* nav  */
+    nav{
+        font-size: 9px;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+
+    .logo2{
+        width: 50px;
+    }
+
+    /* header */
+    .column{
+        flex-direction: column;
+    }
+
+    header{
+        font-size: medium;
+        padding-left: 0;
+        margin-left: 0;
+        
+    }
+    #introduction{
+        margin: 50px 0 0 30px;
+    }
+    
+    #introduction>h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #introduction>p{
+        width: 300px;
+        font-size: 13px;
+
+    }
+    
+    #profile-pic>img{
+        position: unset;
+        width: 150px;
+        height: 220px;
+        margin: 10px 0 0 100px;
+        border-radius: 10px;
+    }
+
+    /* Education  */
+    .education{
+        margin-top: 70px;
+      
+    }
+
+    .education>div>h1{
+        font-size: 40px;
+        margin: 20px 0 30px 0;
+        text-align: center;
+    }
+
+    .education-text{
+        margin-left:10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    hr{
+        width: 370px;
+    }
+    /* projects */
+
+    #projects>h1{
+        font-size: 40px;
+        margin: 0 0 30px 0;
+        text-align: center;
+
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: repeat(6,290px);
+        padding: 30px 0 0 35px;
+    }
+    
+    .grid>div{
+        width: 250px;
+        height: 240px;
+    }
+    
+    .grid>div>img{
+        width: 250px;
+    }
+    
+    .grid>div>button>a{
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .grid>div>button>a:hover{
+        color: white;
+    }
+    }
+
+    footer{
+        .logo1{
+            width: 70px;
+        }
+    }
 
 
 
