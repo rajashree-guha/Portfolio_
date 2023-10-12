@@ -141,6 +141,11 @@ hr{
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
+}
+
+.grid>div>button>a:hover{
+    color: white;
 }
 
 
@@ -172,8 +177,7 @@ footer {
     color: black;
     padding:5px;
     margin-top: 60px;
-    margin-right: 10px;
-    border: 2px solid #f4c556;
+    margin-right: 20px;
 }
 
 .contact-container>div>a:hover{
