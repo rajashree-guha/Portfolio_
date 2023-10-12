@@ -1,9 +1,5 @@
-/* 
-*{
-    padding: 0;
-    margin: 0;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Oswald:wght@500;600&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital,wght@0,300;0,700;1,300&family=Oswald:wght@500;600&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&family=Roboto+Condensed&display=swap');
 .flex{
     display: flex;
 }
@@ -24,14 +20,16 @@
 nav{
     height: 180px;
     width: 100%;
-    background-color:#c1ec48e7;
+    background-color:#f4c556;
 }
 
 nav>a{
     color:black;
     font-size: larger;
-    font-weight: 900;
+    font-weight: 600;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
     }
 
 nav>a:hover{
@@ -54,12 +52,18 @@ header{
     
 }
 #introduction{
-    margin: 110px 0 0 80px;
+    margin: 90px 0 0 80px;
+}
+
+#introduction>h1{
+    font-size: 62px;
+    font-family: 'Dancing Script', cursive;
 }
 #introduction>p{
     width: 700px;
     padding-top:30px;
     line-height: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #profile-pic>img{
@@ -67,7 +71,7 @@ header{
     left: 150px;
     top: 30px;
     width: 250px;
-    border: 5px solid #c1ec48e7 ;
+    border: 5px solid #f4c556;
     border-radius: 50px;
 }
 
@@ -75,16 +79,20 @@ header{
 .education{
     padding: 30px 0;
     margin-top: 100px;
-    background-color:#c1ec48e7 ;
+    background-color:#f5ca67;
 }
 
 .education>div>h1{
     font-size: 80px;
     margin: 100px 0 0 150px;
+    font-family: 'Dancing Script', cursive;
+
 }
 
 .education-text{
     margin-left:-500px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 hr{
@@ -96,7 +104,8 @@ hr{
 #projects>h1{
     text-align: center;
     padding: 100px 0 0 0;
-    font-size: 35px;
+    font-size: 72px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .grid{
@@ -109,10 +118,12 @@ hr{
 
 .grid>div{
     padding: 10px;
-    border: 4px solid #c1ec48e7;
+    border: 4px solid #f4c556;
     border-radius: 10px;
     width: 350px;
     height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .grid>div>img{
@@ -120,8 +131,8 @@ hr{
 }
 
 .grid>div>button{
-    background-color: #c1ec48e7;
-    border: 1px solid #c1ec48e7;
+    background-color: #f4c556;
+    border: 1px solid #f4c556;
     border-radius: 10px;
     height: 30px;
 }
@@ -136,39 +147,40 @@ hr{
 /* footer  */
 
 footer {
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
     height: 273px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
-footer p {
-    text-align: right;
-    padding-right: 60px;
-    margin-top: 60px;
+.logo1{
+    width: 100px;
+    padding-bottom: 30px;
 }
 
 .contact-container {
-    position: absolute;
-    margin-top: 50px;
-    left: 0;
-    height:200px;
-    max-width: 700x;
-    background-color:  #c1ec48e7;
-}
+    margin: 50px 0;
+    text-align: center;
 
-.contact-container>h2{
-    padding-left: 116px;
-    padding-top: 40px;
-    margin-right: 282px;
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
 }
-.contact-container>a {
-    padding-left: 116px;
-    padding-top: 80px;
-    margin-right: 282px;
+#contact{
+    display: block;
+}
+.contact-container>div>a {
     text-decoration: none;
     color: black;
+    padding:5px;
+    margin-top: 60px;
+    margin-right: 10px;
+    border: 2px solid #f4c556;
 }
+
+.contact-container>div>a:hover{
+    color: white;
+    background-color: #f4c556;
+
+}
+
+
 
