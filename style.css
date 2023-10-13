@@ -236,16 +236,15 @@ footer {
     
     #profile-pic>img{
         position: unset;
-        width: 150px;
-        height: 220px;
-        margin: 10px 0 0 100px;
+        width: 250px;
+        margin: 10px 0 0 50px;
         border-radius: 10px;
+
     }
 
     /* Education  */
     .education{
         margin-top: 70px;
-      
     }
 
     .education>div>h1{
@@ -276,7 +275,7 @@ footer {
         display: grid;
         grid-template-columns:repeat(1,1fr);
         grid-template-rows: repeat(6,290px);
-        padding: 40px 0 0 35px;
+        padding: 40px 0 0 45px;
     }
     
     .grid>div{
